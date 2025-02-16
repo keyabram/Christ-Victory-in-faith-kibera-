@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christ Victory in Faith</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo.jpg" alt="Church Logo" class="church-logo">
+            <h1>CHRIST VICTORY IN FAITH(KIBERA)</h1>
+            <p class="theme">Theme for 2025: "Embracing Faith and Community"</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#ministries">Ministries</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Notification Banner -->
+    <div id="notification-banner" class="notification-banner">
+        <p id="notification-message"></p>
+        <button id="dismiss-banner" class="dismiss-banner">X</button>
+    </div>
+
+    <!-- Rest of the content -->
+
+    <section id="daily-verses" class="daily-verses-section">
+        <div class="container">
+            <h2>Daily Verse</h2>
+            <p id="verse"></p>
+        </div>
+    </section>
+
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h2>Welcome to Our Church</h2>
+            <p>Experience the love of God and the warmth of our community.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Our church is a place of worship, community, and spiritual growth. Join us for our weekly services and events.</p>
+        </div>
+    </section>
+    <section id="leaders" class="leaders-section">
+        <div class="container">
+            <h2>Meet Our Leaders</h2>
+            <div class="leader">
+                <img src="images/moses.jpg" alt="Leader 1">
+                <h4>Rev. Overseer Moses Adie</h4>
+                <p></p>
+            </div>
+            <div class="leader">
+                <img src="images/sample6.jpg" alt="Leader 2">
+                <h4>ALEX OSEWE</h4>
+                <p>Treasurer of the Christ Victory in Faith Church 2025.</p>
+            </div>
+        </div>
+        <!-- Modal Structure -->
+        <div id="leader 1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('leader 1')">&times;</span>
+                <h2>Rev.  Overseer Moses Adie</h2>
+                <p>
+                    Pastoral Care – Offering counseling, support, and encouragement to church members in times of joy and crisis.
+                    Administration – Managing church affairs, overseeing programs, and making key decisions in collaboration with church leaders.
+                    Sacraments and Rituals – Conducting baptisms, weddings, funerals, and Holy Communion services.
+                    Community Outreach – Engaging in charity work, supporting the needy, and fostering relationships within the community.
+                    Mentorship and Discipleship – Training and mentoring church leaders, youth, and new believers in faith and Christian values.
+                    Conflict Resolution – Mediating disputes among church members and maintaining harmony within the church.
+                    Teaching and Evangelism – Spreading the Gospel through Bible study sessions, missionary work, and outreach programs.
+                    Financial Stewardship – Ensuring proper use of church funds, overseeing donations, and promoting financial transparency.
+                    Intercessory Role – Praying for individuals, the church, and society, acting as a spiritual intercessor..
+                </p>
+            </div>
+        </div>
+        <div id="leader 2" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('leader 2')">&times;</span>
+                <h2>Alex OSEWE</h2>
+                <p>Detailed information about the leader.</p>
+            </div>
+        </div>
+    </section>
+    <section id="sermons" class="sermons-section">
+        <div class="container">
+            <h2>Sermons & Teachings</h2>
+            <p>Coming soon...</p>
+        </div>
+    </section>
+    <section id="prayer-requests" class="prayer-requests-section">
+        <div class="container">
+            <h2>Prayer Requests</h2>
+            <p>Submit your prayer needs here.</p>
+            <form>
+                <div class="form-group">
+                    <label for="prayer-name">Name</label>
+                    <input type="text" id="prayer-name" name="prayer-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="prayer-request">Prayer Request</label>
+                    <textarea id="prayer-request" name="prayer-request" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="get-involved" class="get-involved-section">
+        <div class="container">
+            <h2>Get Involved</h2>
+            <p>Volunteer signups, small groups, and community projects.</p>
+            <p>Coming soon...</p>
+        </div>
+    </section>
+    <section id="faqs" class="faqs-section">
+        <div class="container">
+            <h2>FAQs</h2>
+            <p>Answers to common questions about the church.</p>
+            <p>Coming soon...</p>
+        </div>
+    </section>
+
+
+
+
+    <<section id="missions" class="missions-section">
+        <div class="container">
+            <i class="fas fa-hands-helping"></i>
+            <h2>Our Missions</h2>
+            <p>Our mission is to spread the love and teachings of Jesus Christ through our community and beyond.</p>
+
+            <div class="divider"></div>
+        </div>
+    </section>
+
+    <section id="visions" class="visions-section">
+        <div class="container">
+            <i class="fas fa-eye"></i>
+            <h2>Our Visions</h2>
+            <p>We envision a world where every individual experiences the transformative power of God's love.</p>
+
+            <div class="divider"></div>
+        </div>
+    </section>
+
+    <section id="values" class="values-section">
+        <div class="container">
+            <i class="fas fa-heart"></i>
+            <h2>Our Values</h2>
+            <p>We value faith, community, service, and spiritual growth as the cornerstones of our church.</p>
+
+            <div class="divider"></div>
+        </div>
+    </section>
+
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <i class="fas fa-praying-hands"></i>
+                <h3>Worship</h3>
+                <p>Join us for our Sunday worship services and experience the presence of God.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-bible"></i>
+                <h3>Bible Study</h3>
+                <p>Attend our weekly Bible study sessions to deepen your understanding of the scriptures.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-hands-helping"></i>
+                <h3>Community Outreach</h3>
+                <p>Get involved in our community outreach programs and make a difference in the lives of others.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="events-section">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <div class="event">
+                <h3>Event Title</h3>
+                <p>Date: February 20, 2025</p>
+                <p>Description of the event goes here.</p>
+            </div>
+            <div class="event">
+                <h3>Event Title</h3>
+                <p>Date: March 15, 2025</p>
+                <p>Description of the event goes here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="ministries" class="ministries-section">
+        <div class="container">
+            <h2>Our Ministries</h2>
+            <div class="ministry">
+                <h3><a href="ministries-details.html#children-ministry" target="_blank">Children's Ministry</a></h3>
+                <p>Information about the children's ministry.</p>
+            </div>
+            <div class="ministry">
+                <h3><a href="ministries-details.html#youth-ministry" target="_blank">Youth Ministry</a></h3>
+                <p>Information about the youth ministry.</p>
+            </div>
+            <div class="ministry">
+                <h3><a href="ministries-details.html#door-to-door-ministry" target="_blank">Door to Door Ministry</a></h3>
+                <p>Information about the Door to Door ministry.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"This church has been a blessing to my family."</p>
+                <p>- BRAMUEL KEYA</p>
+            </div>
+            <div class="testimonial">
+                <p>"I have grown spiritually since joining this church."</p>
+                <p>- ELIAS OTIENO</p>
+            </div>
+        </div>
+    </section>
+    <section id="giving" class="giving-section">
+        <div class="container">
+            <h2>Online Giving</h2>
+            <p>Your generous donations help us continue our mission and serve the community.</p>
+            <a href="https://www.yourdonationlink.com" class="btn giving-btn">Give Online</a>
+            <h3>Lipa na M-Pesa</h3>
+            <p>Paybill Number: <strong>123456</strong></p>
+            <p>Account Number: <strong>TITHE/OFFERING</strong></p>
+            <div class="giving-images">
+                <img src="images/mpesa.png" alt="Giving Image 1">
+                <img src="images/paypal.png" alt="Giving Image 2">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-item">
+                <img src="images/Sample1.jpg" alt="Gallery Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="images/sample2.jpg" alt="Gallery Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="images/sample6.jpg" alt="Gallery Image 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Blog Post Title</h3>
+                <p>Date: February 10, 2025</p>
+                <p>Content of the blog post goes here.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>Blog Post Title</h3>
+                <p>Date: January 25, 2025</p>
+                <p>Content of the blog post goes here.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CHRIST VICTORY IN FAITH CHURCH(KIBERA). All rights reserved.</p>
+        </div>
+    </footer>
+    <div class="container">
+
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/+254711349887" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
